@@ -1,5 +1,6 @@
 package com.test;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,6 +21,7 @@ public class Test {
         Matcher m = p.matcher("Exercis");
         System.out.println(m.matches());
 
-        //hei lo 222 333 CHANGE FROM AAA
+        //hei lo 222 333 CHANGE FROM AAA bbbb
+
     }
 }
