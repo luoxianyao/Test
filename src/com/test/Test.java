@@ -1,6 +1,5 @@
 package com.test;
 
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,6 +15,7 @@ public class Test {
             System.out.println(m.groupCount());
         }*/
 
+        //TODO
         Pattern p = Pattern.compile("[D-F][a-z]{6}");
         Matcher m = p.matcher("Exercis");
         System.out.println(m.matches());
